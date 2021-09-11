@@ -18,6 +18,7 @@ void Robot::AutonomousPeriodic() {
 void Robot::TeleopInit() {}
 void Robot::TeleopPeriodic() {
   drive.curvatureDrive();
+  newMotor->set(1);
 }
 
 void Robot::DisabledInit() {}
