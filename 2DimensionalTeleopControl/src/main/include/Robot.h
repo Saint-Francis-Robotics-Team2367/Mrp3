@@ -30,6 +30,5 @@ class Robot : public frc::TimedRobot {
   const int motorID = 1;
 
   Drive drive = Drive(0, throttle_axis_id, steering_axis_id, quick_turn_button_id, 0.05, 0.1, true, false);
-
   rev::CANSparkMax *m_motor = new rev::CANSparkMax(motorID, rev::CANSparkMax::MotorType::kBrushless);
 };
