@@ -10,6 +10,8 @@
 #define steering_axis_id 0
 #define quick_turn_button_id 1
 
+int q = 3;
+
 class Robot : public frc::TimedRobot {
  public:
   void RobotInit() override;
