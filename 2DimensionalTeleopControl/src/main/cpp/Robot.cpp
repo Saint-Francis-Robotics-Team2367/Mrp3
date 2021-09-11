@@ -7,6 +7,7 @@
 
 
 void Robot::RobotInit() {
+  int example = 5;
 }
 void Robot::RobotPeriodic() {}
 
