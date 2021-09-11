@@ -4,7 +4,8 @@
 
 #include "Robot.h"
 
-
+int x = 5;
+int y = 10;
 
 void Robot::RobotInit() {
   int example = 5;
