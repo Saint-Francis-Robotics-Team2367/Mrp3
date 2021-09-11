@@ -4,6 +4,8 @@
 
 #include "Robot.h"
 
+int x = 5;
+
 
 
 void Robot::RobotInit() {
