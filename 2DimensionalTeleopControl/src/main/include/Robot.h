@@ -6,6 +6,7 @@
 #include "Drive.h"
 #include <frc/TimedRobot.h>
 #include <rev/CANSparkMax.h>
+#include <frc/Joystick.h>
 #define throttle_axis_id 5
 #define steering_axis_id 0
 #define quick_turn_button_id 1
@@ -31,4 +32,6 @@ class Robot : public frc::TimedRobot {
 
   Drive drive = Drive(0, throttle_axis_id, steering_axis_id, quick_turn_button_id, 0.05, 0.1, true, false);
   rev::CANSparkMax *m_motor = new rev::CANSparkMax(motorID, rev::CANSparkMax::MotorType::kBrushless);
+
+  frc::Joystick *j_x = new frc::Joystick(0);
 };
