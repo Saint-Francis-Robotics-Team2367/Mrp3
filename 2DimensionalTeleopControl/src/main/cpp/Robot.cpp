@@ -4,7 +4,7 @@
 
 #include "Robot.h"
 
-
+int x = 5000000; 
 
 void Robot::RobotInit() {
 }
