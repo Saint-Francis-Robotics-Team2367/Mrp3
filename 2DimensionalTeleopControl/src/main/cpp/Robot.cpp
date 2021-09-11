@@ -8,8 +8,12 @@ int x = 5;
 int y = 10;
 
 void Robot::RobotInit() {
+<<<<<<< HEAD
+  int example = 5;
+=======
 
   m_motor->RestoreFactoryDefaults();
+>>>>>>> 0ff4989f093e57cf8faff766283144c6ad201dc3
 }
 void Robot::RobotPeriodic() {}
 
