@@ -4,7 +4,13 @@
 
 #include "Robot.h"
 
+<<<<<<< HEAD
 int x = 5000000; 
+=======
+int x = 5;
+
+
+>>>>>>> c2d218ecb27a7d45b7023070e9dc21c1b2d49152
 
 void Robot::RobotInit() {
 }
