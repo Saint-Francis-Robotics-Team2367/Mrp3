@@ -9,12 +9,13 @@ int y = 10;
 float pi = 4.20;
 
 void Robot::RobotInit() {
-<<<<<<< HEAD
   int example = 5;
-=======
 
   m_motor->RestoreFactoryDefaults();
->>>>>>> 0ff4989f093e57cf8faff766283144c6ad201dc3
+
+  int f = 1000;
+  int g = 200;
+  int h = 30;
 }
 void Robot::RobotPeriodic() {}
 
