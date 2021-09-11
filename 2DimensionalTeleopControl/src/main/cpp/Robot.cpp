@@ -6,9 +6,6 @@
 
 int x = 5;
 int y = 10;
-float pi = 4.20;
-
-int a = 50000000000; 
 
 void Robot::RobotInit() {
   int example = 5;
@@ -18,6 +15,7 @@ void Robot::RobotInit() {
   int f = 1000;
   int g = 200;
   int h = 30;
+  int i = 1;
 }
 void Robot::RobotPeriodic() {}
 
@@ -29,10 +27,8 @@ void Robot::AutonomousPeriodic() {
 void Robot::TeleopInit() {}
 void Robot::TeleopPeriodic() {
   drive.curvatureDrive();
-
-  double x = j_x->GetY();
-
-  m_motor->Set(x);
+  
+  m_motor->Set(1.0);
 }
 
 void Robot::DisabledInit() {}
