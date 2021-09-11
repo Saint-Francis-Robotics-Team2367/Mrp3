@@ -8,6 +8,8 @@ int x = 5;
 int y = 10;
 
 void Robot::RobotInit() {
+
+  m_motor->RestoreFactoryDefaults();
 }
 void Robot::RobotPeriodic() {}
 
@@ -19,6 +21,9 @@ void Robot::AutonomousPeriodic() {
 void Robot::TeleopInit() {}
 void Robot::TeleopPeriodic() {
   drive.curvatureDrive();
+
+  m_motor->Set(1.0);
+
 }
 
 void Robot::DisabledInit() {}
